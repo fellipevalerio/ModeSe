@@ -3,19 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Página inicial | modese</title>
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/modese.css">
 </head>
 <body>
     <header>
-        Header
+        <div class="container">
+            <h1 id="brand">modese</h1>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Atendimento</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Login/LogOut</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha Conta/Cadastro</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <aside>
-            Menu de Categorias
-        </aside>
-        <section>
-            Conteúdo Principal
-        </section>
+        <div class="container">
+            <aside>
+                <h3>Produtos</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            Categoria 1
+                            <ul>
+                                <li>Subcategoria 1.1</li>
+                                <li>Subcategoria 1.2</li>
+                            </ul>
+                        </li>
+                        <li>Categoria 2</li>
+                        <li>
+                            Categoria 3
+                            <ul>
+                                <li>Subcategoria 3.1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section id="products-list">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img width="215px;" height="250px;"" src="" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h6>Lorem ipsum dolor sit.</h6>
+                        <span>R$ 100,00</span>
+                        <a href="#">Ver mais</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         Footer
