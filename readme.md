@@ -11,16 +11,22 @@
 
 #### PÚBLICO ALVO:
 - Basicamente entre 16 e 28 anos.
+
 #### NECESSIDADE DO PÚBLICO-ALVO:
 - Diversidade, individualidade e identidade.
+
 #### NOME DO PRODUTO:
 - Modese. (mude-se, molde-se.)
+
 #### CATEGORIA DE MERCADO:
 - Moda (Vestuário)
+
 #### BENEFÍCIO PRINCIPAL:
-- Criação de produtos únicoss.
+- Criação de produtos únicos.
+
 #### CONCORRENTES:
 - Lojas com o segmento voltado para o mesmo público.
+
 #### DIFERENCIAL DO PRODUTO:
 - Permissividade e possibilidade. Produtos de vários parceiros, mas com a ideia de criação própria, permitindo que o cliente seja também o criador de seu produto.
 
