@@ -1,6 +1,6 @@
 # Modese
 
-### SOBRE
+## SOBRE
 
 ### A MODESE – E-COMMERCE (PROJETO TECWEB/ADS)
 
@@ -30,7 +30,7 @@ Ao contrário de todos os disponíveis por aí, nós temos o compromisso de cria
 **DIFERENCIAL DO PRODUTO:**
 - Permissividade e possibilidade. Produtos de vários parceiros, mas com a ideia de criação própria, permitindo que o cliente seja também o criador de seu produto.
 
-### Time
+## Time
 
 - Douglas Machado
 - Fellipe Valério
