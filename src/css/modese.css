@@ -93,15 +93,18 @@ label {
 
 #name {
     border-radius: 6px; 
+    border-width: 1px;
     width: 450px;
 }
 
 #email {
     border-radius: 6px;
+    border-width: 1px;
     width: 450px;
 }
 
 #telephone {
+    border-width: 1px;
     border-radius: 6px;
     width: 440px;
 }
