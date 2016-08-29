@@ -36,3 +36,4 @@ Ao contrário de todos os disponíveis por aí, nós temos o compromisso de cria
 - Fellipe Valério
 - Renata Oliveira
 - Lucas Batista
+- Ygor de Jesus
