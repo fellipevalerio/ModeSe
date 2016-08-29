@@ -76,24 +76,50 @@ aside h3 {
     width: 70%;
 }
 
-#dados-contato { /* paginaContato */
-    background-color:red;
-    float: left;
-    min-height: 600px;
-    text-align: center;
-    width: 470px;
+/*TESTANDO CSS CONTATO*/
+
+fieldset {
+    border: none;
 }
 
-#contato-box { /* paginaContato */
-    background-color:yellow;
-    width: 470;
+label {
+    cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.legend {
+    color: #393838;
 }
 
-
-textarea {
-    height: 250px;
-    width: 300px;
+#name {
+    border-radius: 3px; 
+    width: 450px;
 }
+
+#email {
+    border-radius: 3px;
+    width: 450px;
+}
+
+#telephone {
+    border-radius: 3px;
+    width: 440px;
+}
+
+#message {
+    border-radius: 3px;
+    width: 500px;
+}
+
+em {
+    color: red;
+}
+
+#contactForm {
+    display: block;
+    clear: both;
+}
+
+/*fim do teste css contato*/
 
 .product-card {
     height: 200px;

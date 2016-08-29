@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-                <h1 id="brand">Modese</h1>
+            <h1 id="brand">Modese</h1>
         </div>
          <nav id="menu">
             <ul>
@@ -33,42 +33,33 @@
                 </li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <div class="container">
-            <section id="dados-contato">
-                <name>modese.com.br</name><br />
-                <cnpj>CNPJ: 00.000.000/0001-00</cnpj> 
-                <address>AV SÃO JOAO 146 - SP</address> 
-                <contact>CONTATO@MODESE.COM.BR</contact><br />
-                <phone> 11 0000 0000</phone><br />
-            </section>
+    </header>  
 
-            <section id="contato-box">
-
-                <table>
-                    <tr>
-                        <td>Nome:</td>
-                        <td><input type="text" name="Nome" size="40"> <br /></td>
-                    </tr>
-                    <tr>
-                        <td>Sobrenome:</td>
-                        <td><input type="text" name="Sobrenome" size="40"> <br /></td>
-                    </tr>
-                    </table>
-                    <tr>
-                        <td>E-mail:</td>
-                        <td><input type="text" name="E-mail" size="45"> <br /></td>
-                    </tr><br />
-                    <tr>
-                        <td><textarea>Digite sua mensagem.</textarea><br /></td>
-                    </tr>
-                    <tr>
-                        <input type="submit"/>
-                    </tr>
-            </section>
-        </div>
-    </main>
+    <div class="container">
+        <form action id="contactForm" method="post">
+            <h2 class="legend">Informações de contato</h2>
+            <fieldset class="form-nome">
+                <label for="" class="required"><em>*  </em>Nome</label>
+                <input name="" id="name" title="Nome" type="text">
+            </fieldset>
+            <fieldset class="form-email">
+                <label for="" class="required"><em>*  </em>Email</label>
+                <input type="text" id="email" title="Email">
+            </fieldset>
+            <fieldset class="form-telefone">
+                 <label for="telephone">Telefone</label>
+                 <input name="telephone" id="telephone" title="Telefone" type="text">
+            </fieldset>
+            <fieldset class="form-mensagem">
+                <label for="message"><em>* </em>Mensagem</label><br >
+                <textarea name="message" id="message" title="Mensagem" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset class="button-set">
+                <p class="required">* Campos Obrigatórios</p>
+            <button type="submit" title="Enviar" class="btn btn-primary">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
     <footer>
         <div id="text-footer">
             <name>modese.com.br</name><br />
