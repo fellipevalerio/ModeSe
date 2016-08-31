@@ -193,7 +193,16 @@ footer {
 body {background: none;}
 
 
-#menuMinhaConta {margin:30px ;padding:0 ;float: left;}
-#menuMinhaConta li {list-style: none; background:#fff;width: 250px;border-bottom: 1px solid #666;}
+#menuMinhaConta {margin:10px ;padding:100 ;float: left;}
+#menuMinhaConta li {list-style: none; background:#fff;width: 280px;border-bottom: 2px solid #666;}
 #menuMinhaConta li a {display:block; padding: 8px; border-left:4px solid #444; text-decoration: none;box-shadow: 2px 2px 5px #ccc;color:#555;}
-#menuMinhaConta li a:hover {border-left: 4px solid #069; background: #bdc3c7} /* Faz o efeito azul no canto do meu e deixar escuro quando passamos o mause no menu*/
+#menuMinhaConta li a:hover {border-left: 8px solid #069; background: #bdc3c7} /* Faz o efeito azul no canto do meu e deixar escuro quando passamos o mause no menu*/
+
+#caixa{
+    margin:30px;
+    padding: 80px;
+    float: right;
+    background: #ecf0f1;
+    box-shadow: 0 2px 5px #000;
+    text-align: left;
+}
