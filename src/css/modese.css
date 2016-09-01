@@ -193,16 +193,57 @@ footer {
 body {background: none;}
 
 
-#menuMinhaConta {margin:10px ;padding:100 ;float: left;}
+#menuMinhaConta {margin:10px ; width: 80px; padding:100 ;float: left;}
 #menuMinhaConta li {list-style: none; background:#fff;width: 280px;border-bottom: 2px solid #666;}
 #menuMinhaConta li a {display:block; padding: 8px; border-left:4px solid #444; text-decoration: none;box-shadow: 2px 2px 5px #ccc;color:#555;}
 #menuMinhaConta li a:hover {border-left: 8px solid #069; background: #bdc3c7} /* Faz o efeito azul no canto do meu e deixar escuro quando passamos o mause no menu*/
+    
+.adress {
+  position: relative;
+  left: 330px;
+  padding: 70px;
+  width: 300px;
+  height: 100px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #1eabed;
+}
 
-#caixa{
-    margin:30px;
-    padding: 80px;
-    float: right;
-    background: #ecf0f1;
-    box-shadow: 0 2px 5px #000;
-    text-align: left;
+.division {
+float: left;
+  width: 100%;
+  height: 2px;
+  background-color: #1eabed;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: #1eabed;
+}
+
+.lapis,
+.lixeira {
+  position: absolute;
+}
+
+.lapis {
+  top: 20px;
+  right: 50px;
+}
+
+.lixeira {
+  top: 20px;
+  right: 10px;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+  width: 200px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #1eabed;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
 }
